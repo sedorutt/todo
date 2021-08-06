@@ -42,9 +42,10 @@ export default {
         saveForm(){
             axios.post('/api/register', this.form).then(() =>{
                 console.log('saved');
+                this.$router.push({name:'Login'});
             }).catch((error) =>{
                 this.errors = error.response.data.errors;
-            })
+            });
         }
     }
 }

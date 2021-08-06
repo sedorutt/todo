@@ -12,8 +12,8 @@
             </div>
         </div>
     </div>
-    <div class="container mx-auto py-2">
+    {{-- <div class="container mx-auto py-2">
         <router-view></router-view>
-    </div>
+    </div> --}}
     
 @endsection
